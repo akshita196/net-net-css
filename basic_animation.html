@@ -1,0 +1,44 @@
+<style>
+  
+  @keyframes colorZoom {
+    0% {
+      color: black;
+      transform: scale(1);
+    }
+    50% {
+      color: seagreen;
+      transform: scale(1.2);
+    }
+    100% {
+      color: black;
+      transform: scale(1);
+    }
+  }
+
+  h1 {
+    text-align: center;
+    padding: 20px;
+    
+    animation-name: colorZoom;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  h2 {
+    text-align: right;
+    padding: 10px;
+    
+    animation-name: colorZoom;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+
+</style>
+
+
+<h1>Welcome to my css animation!</h1>
+<h2>
+  this is my first time doing a css animation!!!
+</h2>
