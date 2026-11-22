@@ -19,10 +19,53 @@
         height: 500px;
         border: 1px dashed;
       }
+      
+      .sky {
+        position: relative;
+        width: 500px;
+        height: 499px;
+        border: 0px;
+        background: lightblue;
+      }
+      
+      .sun {
+        position: absolute;
+        top: 50px;
+        left: 350px;
+        width: 100px;
+        height: 100px;
+        background: gold;
+        border-radius: 50%;
+      }
+      
+      .mountain {
+       position: absolute;
+       top: 200px;
+       left: 20px;
+       width: 300px;
+       height: 299px;
+       background: brown;
+       clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+      }
+      
+      .mountain2 {
+       position: absolute;
+       top: 280px;
+       left: 180px;
+       width: 300px;
+       height: 219px;
+       background: brown;
+       clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+      }
+      
     </style>
   </head>
   <body>
     <div class="frame">
+      <div class="sky"></div>
+      <div class="sun"></div>
+      <div class="mountain"></div>
+      <div class="mountain2"></div>
       <!-- add your elements here -->
     </div>
   </body>
